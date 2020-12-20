@@ -16,10 +16,11 @@ pushd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config
-popd
-
 # Add luci-app-ustb
 git clone https://github.com/WROIATE/luci-app-ustb
+popd
+
+
 
 pushd package/lean/default-settings/files
 sed -i "/commit luci/i\uci set luci.main.mediaurlbase='/luci-static/argon'" zzz-default-settings
