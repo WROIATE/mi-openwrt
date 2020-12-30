@@ -18,6 +18,8 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argo
 git clone https://github.com/jerrykuku/luci-app-argon-config
 # Add luci-app-ustb
 git clone https://github.com/WROIATE/luci-app-ustb
+# Add eqos
+git clone https://github.com/garypang13/luci-app-eqos
 popd
 
 
